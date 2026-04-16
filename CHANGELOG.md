@@ -7,6 +7,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ---
 ## [Unreleased]
+
+## [1.23] 2026-04-16
 ### Changed
 - Update SAMtools version to 1.23
 - Update Ubuntu base image from 20.04 to 24.04

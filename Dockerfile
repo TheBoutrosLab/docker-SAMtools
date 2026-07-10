@@ -4,7 +4,7 @@ ARG SAMTOOLS_ENV=/opt/conda/envs/samtools
 FROM condaforge/miniforge3:${MINIFORGE_VERSION} AS builder
 
 # Install SAMtools into an isolated Conda environment instead of mutating base
-ARG SAMTOOLS_VERSION=1.23
+ARG SAMTOOLS_VERSION=1.24
 ARG SAMTOOLS_ENV
 RUN mamba create -qy -p ${SAMTOOLS_ENV} \
     -c conda-forge \
